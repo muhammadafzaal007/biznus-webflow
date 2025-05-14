@@ -1,0 +1,545 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#fixed {
+  width: 100%;
+  position: sticky;
+  position: fixed;
+}
+#head {
+  background-color: #222;
+  padding: 18px;
+  color: #f9f9f9;
+  font-family: Sen, sans-serif;
+  cursor: pointer;
+  font-size: 18px;
+}
+#head .btns {
+  padding: 10px 30px 10px 30px;
+  margin-right: 10px;
+  background-color: #eb5757;
+  color: #f9f9f9;
+  border-radius: 20px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+#navbar {
+  background-color: #eb5757;
+  color: #f9f9f9;
+  font-family: Sen, sans-serif;
+  padding: 18px;
+  padding-right: 30px;
+  padding-left: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+#navbar .link {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.logo {
+  padding-left: 20px;
+}
+#navbar .link li {
+  list-style: none;
+  margin: 0px 30px;
+  font-size: 16px;
+}
+#navbar .link li a {
+  text-decoration: none;
+  color: #f9f9f9;
+  font-family: Sen, sans-serif;
+}
+.link li a:hover {
+  padding: 7px 20px;
+  background-color: #222;
+  border-radius: 5px;
+}
+#navbar .link li .cart {
+  background-color: #222;
+  border: none;
+  border-radius: 10px;
+  padding: 0px 10px;
+  cursor: pointer;
+  width: 70%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+}
+#Server {
+  background: linear-gradient(
+      to bottom,
+      rgba(11, 10, 10, 0.002),
+      rgba(25, 25, 25, 0.779)
+    ),
+    url("assets/hero_bg_img.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 810px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#Server .hero {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Sen, sans-serif;
+  color: #f9f9f9;
+  padding-top: 70px;
+  padding-left: 25px;
+  margin: 0px 0px 10px 40px;
+}
+#Server .pg {
+  color: #f9f9f9;
+  font-family: Sen, sans-serif;
+  padding-left: 25px;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 10px 0px 10px 40px;
+  width: 30%;
+  line-height: 1.5;
+}
+#Server .shop {
+  padding-left: 25px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.shop button {
+  padding: 8px 25px;
+  border: 1px solid #f9f9f9;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #f9f9f9;
+  font-family: Sen, sans-serif;
+  background-color: transparent;
+  font-weight: bold;
+}
+.shop button:hover {
+  background-color: #f9f9f9;
+  color: #222;
+}
+#support {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-top: 90px;
+  margin-left: 5px;
+}
+#support .way {
+  font-family: Sen, sans-serif;
+  color: #333;
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+#support .acme {
+  font-size: 40px;
+  font-family: Sen, sans-serif;
+  color: #333;
+}
+#support .covid {
+  padding-left: 100px;
+  font-family: Sen, sans-serif;
+  color: #333;
+  width: 37%;
+  line-height: 1.5;
+  font-size: 15px;
+  padding-right: 40px;
+
+}
+#square {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 400px;
+}
+#square .sqa {
+  margin-top: 50px;
+  background-color: #222;
+  padding: 70px 70px;
+  color: #f9f9f9;
+  border: solid;
+  border-radius: 10px;
+}
+#square .sqa .aa {
+  color: #f9f9f9;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: Sen, sans-serif;
+}
+#square .sqa .bb {
+  display: flex;
+  text-align: center;
+  color: #f9f9f9;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: Sen, sans-serif;
+}
+#square .sqa .cc {
+  padding-left: 120px;
+}
+
+#square .sqb {
+  margin-top: 50px;
+  background-color: #222;
+  padding: 88px 80px;
+  color: #f9f9f9;
+  border: solid;
+  border-radius: 10px;
+}
+.sqb .DD {
+  color: #f9f9f9;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: Sen, sans-serif;
+}
+.sqb .EE {
+  display: flex;
+  text-align: center;
+  color: #f9f9f9;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: Sen, sans-serif;
+}
+.sqb .FF {
+  padding-left: 100px;
+}
+
+#square .sqc {
+  margin-top: 50px;
+  padding: 70px 70px;
+  background-color: #222;
+  color: #f9f9f9;
+  border: solid;
+  border-radius: 10px;
+}
+
+.sqc .gg {
+  color: #f9f9f9;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: Sen, sans-serif;
+}
+.sqc .hh {
+  display: flex;
+  text-align: center;
+  color: #f9f9f9;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: Sen, sans-serif;
+}
+.sqc .ii {
+  padding-left: 120px;
+}
+#content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-bottom: 60px;
+}
+#content .int {
+  width: 26%;
+  margin-top: 10px;
+  text-align: left;
+  font-size: 16px;
+  font-family: Sen, sans-serif;
+  color: #333;
+  font-weight: 400;
+  line-height: 1.5;
+}
+#content .float {
+  margin-top: 10px;
+  text-align: left;
+  font-size: 16px;
+  font-family: Sen, sans-serif;
+  color: #333;
+  font-weight: 400;
+  line-height: 1.5;
+}
+#content .long {
+  font-weight: 400;
+  margin-top: 10px;
+  text-align: left;
+  font-size: 16px;
+  font-family: Sen, sans-serif;
+  color: #333;
+  line-height: 1.5;
+}
+#safe {
+  height: 500px;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.301),
+      rgba(15, 8, 8, 0.918)
+    ),
+    url("assets/fourth_section_bg_img.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding-right: 60px;
+}
+#safe .ay {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Sen, sans-serif;
+  color: #f9f9f9;
+  text-align: right;
+  width: 40%;
+  line-height: 1.5;
+}
+#safe .by {
+  color: #f9f9f9;
+  font-weight: 400;
+  font-family: Sen, sans-serif;
+  font-size: 18px;
+  margin-bottom: 15px;
+  width: 35%;
+  line-height: 1.5;
+  text-align: right;
+}
+#safe .cy {
+  background-color: #f9f9f9;
+  color: #333;
+  font-family: Sen, sans-serif;
+  font-size: 15px;
+  font-weight: 550;
+  margin-right: 5px;
+  padding: 9px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+#safe .cy:hover {
+  background-color: #eb5757;
+  color: #f9f9f9;
+}
+#products {
+  height: 800px;
+  padding: 70px 50px;
+}
+#products .rg {
+  font-weight: 400;
+  margin-top: 10px;
+  text-align: left;
+  font-size: 16px;
+  font-family: Sen, sans-serif;
+  color: #333;
+  margin-bottom: 3px;
+}
+#products .bg {
+  font-size: 35px;
+  font-family: Sen, sans-serif;
+  color: #333;
+}
+#all {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+#all .imga {
+  background-image: url("assets/imga.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+  width: 370px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#all .imgb {
+  background-image: url("assets/imgb.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+  width: 370px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#all .imgc {
+  background-image: url("assets/imgc.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+  width: 370px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+#all .imgc .sale {
+  margin-top: 20px;
+  cursor: pointer;
+  margin-right: 10px;
+  padding: 8px 20px;
+  border-radius: 5px;
+  border: none;
+  font-family: Sen, sans-serif;
+  font-weight: 400;
+  background-color: #eb5757;
+  color: #f9f9f9;
+}
+#item-name {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+.white,
+.tin,
+.blue {
+  width: 30%;
+  text-align: center;
+  font-family: Sen, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #222;
+  cursor: pointer;
+}
+#item-price {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15px;
+}
+.usa,
+.usd,
+.uae {
+  width: 15%;
+  text-align: center;
+  font-family: Sen, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #222;
+  cursor: pointer;
+  margin-left: 7px;
+}
+.uae {
+  margin-left: 15px;
+}
+.overline {
+  color: #eb5757;
+  text-decoration: line-through;
+}
+#item-button {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15px;
+}
+.bta,
+.btb,
+.btc {
+  padding: 10px 30px;
+  background-color: #eb5757;
+  color: #f9f9f9;
+  text-align: left;
+  font-family: Sen, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#view-all {
+  padding-top: 35px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#view-all .vip {
+  cursor: pointer;
+  padding: 10px 40px;
+  background-color: #222;
+  color: #f9f9f9;
+  border: none;
+  border-radius: 5px;
+  font-family: Sen, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+#view-all .vip:hover {
+  background-color: #eb5757;
+  color: #f9f9f9;
+}
+#localshop {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0px;
+  padding-bottom: 30px;
+  height: 600px;
+}
+#local-shop .rank {
+  border-radius: 5px;
+}
+.ideo {
+  background-color: #222;
+  color: #f9f9f9;
+  width: 60%;
+  height: 550px;
+  border-radius: 5px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.local-a {
+  text-align: left;
+  margin-bottom: 15px;
+  font-family: Sen, sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+}
+.local-b {
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  text-align: left;
+  font-family: Sen, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+#end {
+  padding: 0px 30px;
+  background-color: #222;
+  color: #f9f9f9;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.de {
+  cursor: pointer;
+}
+.social {
+  display: flex;
+}
+.twitter,
+.facebook,
+.insta {
+  margin-right: 20px;
+  cursor: pointer;
+}
+#webflow {
+  background-color: #222;
+  color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  font-family: Sen, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+.address {
+  color: #eb5757;
+}
